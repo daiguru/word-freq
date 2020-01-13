@@ -1,0 +1,27 @@
+Word Frequency ${project.version}
+
+PRE-REQUESITES
+- JDK 1.8 or above
+
+INSTALLATION INSTRUCTIONS
+1. Extract the zip to install location.
+2. Check that the extract folder has the bin, config, lib folders available.
+3. This will be the home path for the application.
+
+CONFIGURATION
+1. Ready the seed file as well as the files indicated in the seed file(Ensure that application has read access rights to it)
+2. Goto home directory
+3. Goto config
+4. Edit the application.properties
+
+STARTING
+
+1. Goto home directory
+2. Goto bin
+3. Run start.cmd
+
+RUNNING WORD SEARCH
+
+Once application is deployed go to http://<hostname>:<port>/search?word=<wordToSearch>
+
+Output is in json format
